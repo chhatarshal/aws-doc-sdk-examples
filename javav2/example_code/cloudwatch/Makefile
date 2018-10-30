@@ -4,5 +4,5 @@ target/aws-cloudwatch-examples-1.0.jar: src/main/java/aws/example/cloudwatch/*.j
 	mvn package
 
 clean:
-	mvn clean
+	mvn -e clean
 
